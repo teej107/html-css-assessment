@@ -1,0 +1,139 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url("img/main-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6, a, p
+{
+    font-family: "Arial Black";
+    color: white;
+}
+
+#top-bar
+{
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#full-menu
+{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#small-menu
+{
+    display: none;
+    height: inherit;
+    width: inherit;
+    padding: 20px;
+}
+
+#hamburger-btn
+{
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 100%;
+    float: left;
+}
+
+#hamburger-line
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin: 0;
+    font-size: 34px;
+    text-align: center;
+}
+
+@media (max-width: 700px)
+{
+    #full-menu
+    {
+        display: none;
+    }
+
+    #small-menu
+    {
+        display: block;
+    }
+}
+
+#small-menu img
+{
+    width: 40px;
+    height: 40px;
+    padding-right: 40px;
+    float: right;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#center-text-container
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1
+{
+    font-size: 56px;
+    margin: 0;
+}
+
+h2
+{
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#bottom-btn
+{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#bottom-btn img
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    vertical-align: middle;
+}
